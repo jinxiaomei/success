@@ -13,6 +13,7 @@
 		187FB3491C96B68800AD88D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187FB3481C96B68800AD88D0 /* Assets.xcassets */; };
 		187FB34C1C96B68800AD88D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187FB34A1C96B68800AD88D0 /* LaunchScreen.storyboard */; };
 		187FB3571C96B68800AD88D0 /* aviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FB3561C96B68800AD88D0 /* aviUITests.swift */; };
+		187FB3621C96BCE800AD88D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FB3611C96BCE800AD88D0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		187FB3521C96B68800AD88D0 /* aviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187FB3561C96B68800AD88D0 /* aviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aviUITests.swift; sourceTree = "<group>"; };
 		187FB3581C96B68800AD88D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187FB3611C96BCE800AD88D0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				187FB3411C96B68800AD88D0 /* AppDelegate.swift */,
 				187FB3431C96B68800AD88D0 /* ViewController.swift */,
+				187FB3611C96BCE800AD88D0 /* DetailViewController.swift */,
 				187FB3451C96B68800AD88D0 /* Main.storyboard */,
 				187FB3481C96B68800AD88D0 /* Assets.xcassets */,
 				187FB34A1C96B68800AD88D0 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187FB3621C96BCE800AD88D0 /* DetailViewController.swift in Sources */,
 				187FB3441C96B68800AD88D0 /* ViewController.swift in Sources */,
 				187FB3421C96B68800AD88D0 /* AppDelegate.swift in Sources */,
 			);
@@ -386,6 +390,7 @@
 				187FB35D1C96B68800AD88D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187FB35E1C96B68800AD88D0 /* Build configuration list for PBXNativeTarget "aviUITests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +399,7 @@
 				187FB3601C96B68800AD88D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
