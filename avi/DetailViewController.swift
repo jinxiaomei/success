@@ -16,6 +16,11 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("好美")
         print("我叫靳晓梅")
+        
+        
+        var str: String = "1234"
+        str = "5678"
+        print(str)
     }
 
     override func didReceiveMemoryWarning() {
